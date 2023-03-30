@@ -10,13 +10,16 @@
 
 
 .imagenPoke{
-    width: 18em;
-    height: 18em;
-    margin-top: 3em;
+    width: 15em;
+    height: 15em;
+    margin-top: 2em;
+    overflow: hidden;
+    padding-bottom: 10px;
 }
 
 table{
     text-align: center;
+    width: 31rem;
 }
 
 .nes-table-responsive{
@@ -26,7 +29,16 @@ table{
 }
 
 table td{
-    width: 18.75rem;
+    width: 14rem;
     
 }
 
+@media (max-width: 400px) {
+    .imagenPoke{
+        width: 150px;
+    }
+
+    table{
+        font-size: 10px;
+    }
+}
