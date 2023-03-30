@@ -19,8 +19,14 @@ table{
     text-align: center;
 }
 
+.nes-table-responsive{
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+}
 
 table td{
     width: 300px;
+    
 }
 
